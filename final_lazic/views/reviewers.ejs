@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+      <div class="list-container">
+        <% reviewers.forEach(s=> { %>
+          <div class="reviewer">
+            <p>
+              <span class="item-label">Name:</span>
+              <%= s.name %>
+            </p>
+            <p>
+              <span class="item-label">Email:</span>
+              <%= s.email %>
+            </p>
+            <p>
+              <span class="item-label">Review:</span>
+              <%= s.review %>
+            </p>
+            <hr>
+          </div>
+          <% }); %>
+      </div>
+    </div>
+  </div>
