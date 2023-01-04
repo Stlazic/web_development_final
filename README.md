@@ -1,2 +1,8 @@
 # web_development_final
 The final website for my web development class, using NodeJS, and MongoDB
+This project was a final for my web development class. It was never actually used for the family buisness nor did I ever want it to be used for the family buisness because it is a mess.
+In the code right now, the database is no longer functional because I never renewed my MongoDB server because I had no reason to. You'll also note the missing code in main.js when connecting the database. If you want to link your own database you need to do it yourself, if i left the framework of mine it would have expose my login credentials and i dont want that.
+Overall this project was pretty fun, I would totally redo it though because it is sloppy and rushed, this was done at the same time as the python final project which I personally was more enthusiastic for. 
+For this project however, it's fairly self explanatory. Main.js is the main control panel for the entire site, there are 3 more javascript files that are used for navigation and overall ease of use. 
+As you explore the page you may find that one of the webpages in "views" is actually not accessible through the website but this was intentional. It was a test for my professor so that he could ensure that the data was being pushed to mongoDB. It would go contact page > mongodb servers > reviews. It was the only way to do it at the time without giving him my credentials for mongodb so it works.
+If youre unfamiliar with how to start this page open the terminal on vsCode (my software of choice) and type "npm start" and enter and it should run a page that you can access via localhost on your computer.
